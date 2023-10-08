@@ -1,0 +1,1 @@
+#define pi pair<int, int>

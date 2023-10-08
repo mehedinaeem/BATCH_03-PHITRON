@@ -1,0 +1,1 @@
+print("mamma python shike gechi")
