@@ -20,11 +20,13 @@ class shopping:
            print(f'u have to pay more money and the amout is {total-amount}') 
         
         
-    def remove_from_cart(self):
+    def remove_from_cart(self,item_name):
         for item in self.cart:
             if(item['price']==500):
                 self.cart.remove(item)
-        
+        for item in self.cart:
+            if item['item']==item_name:
+                self.cart.remove(item)
         
 swapon=shopping('Alan swapon')
 swapon.add_to_cart('Alu',100,5)
@@ -32,5 +34,5 @@ swapon.add_to_cart('Dal',500,2)
 swapon.add_to_cart('murgi',250,1)
 
 print(swapon.cart)
-swapon.remove_from_cart()
+swapon.remove_from_cart('murgi')
 swapon.checkout(1500)
