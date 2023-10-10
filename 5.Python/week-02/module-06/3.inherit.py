@@ -5,7 +5,7 @@ class gadget:
         self.colour=colour
         
     def run(self):
-        pass
+        return f'running laptop {self.brand}'
     
 
 class laptop(gadget):
