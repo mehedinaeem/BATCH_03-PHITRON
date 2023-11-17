@@ -1,0 +1,48 @@
+/* import font in css file */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+body
+{
+    background: linear-gradient(45deg,black,white);
+}
+
+
+.inline {
+    color: aqua;
+}
+
+#use_id {
+    color: blue;
+}
+
+/* .description {
+    color: chocolate;
+} */
+p{
+    color: chartreuse;
+}
+
+/* use typo in hello world */
+.typo
+{
+    color: red;
+    font-size: 50px;
+    font-weight: 1000;
+    font-style: calc();
+    text-align: center;
+    background: linear-gradient(45deg,white,white);
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.box
+{
+    width: 100px;
+    height: 10px;
+    color: blanchedalmond;
+    border: 20px solid;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 4px,4px,80px;
+}
