@@ -1,2 +1,8 @@
-
-
+.menus-container li {
+     /* Unicode for a non-breaking space */
+    margin-right: 30px; /* Adjust the value as needed */
+    font-size: larger;
+    font-style: oblique;
+    color: white;
+    font-weight: 500;
+}

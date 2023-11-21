@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-     <!-- link bootstrap  -->
+    <!-- link bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -22,13 +22,44 @@
 
     <!-- design navbar by bootstrap -->
     <header>
-        <nav>
-            
+        <nav class="row-container m-auto d-flex justify-content-around align-items-center p-2 bg-info">
+            <div class="logo.container col-md-6">
+                <img class="w-25" src="./icons/logo-1.png" alt="" />
+            </div>
+
+            <div class="menus-container col-md-6 d-flex">
+                <li class="list-group-item">Home</li>
+                <li class="list-group-item">Service</li>
+                <li class="list-group-item">Contact</li>
+                <li class="list-group-item">About</li>
+            </div>
+
         </nav>
+
+
+        <!-- Banner design -->
+        <div class="banner-container row container m-auto d-flex align-items-corner">
+            <div class="Banner-left col-md-6">
+                <h1 class="title">Make Appointment Now</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, cum alias! Blanditiis hic deserunt
+                    odit soluta cupiditate et culpa suscipit officiis eaque cumque, non ratione veritatis iusto
+                    laboriosam delectus beatae.</p>
+
+                <!-- make Button -->
+                <button class="btn btn-secondary">Make Your Appointment</button>
+                <button class="btn btn-primary">Doctors</button>
+
+            </div>
+
+            <!-- right side of banner -->
+            <div class="Banner-right col-md-6">
+                <img class="img-fluid w-100 container p-5" src="./Images/banner-doc-1.png" alt="">
+            </div>
+        </div>
     </header>
 
 
-    <h1 class="text-danger">hello world</h1>
+
 </body>
 
 </html>
