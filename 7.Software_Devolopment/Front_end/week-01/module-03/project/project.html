@@ -38,7 +38,7 @@
 
 
         <!-- Banner design -->
-        <div class="banner-container row container m-auto d-flex align-items-corner">
+        <div class="banner-container row container m-auto d-flex align-items-center">
             <div class="Banner-left col-md-6">
                 <h1 class="title text-primary mt-5">Make Appointment Now</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, cum alias! Blanditiis hic deserunt
@@ -58,12 +58,13 @@
         </div>
     </header>
 
+
     <!-- design card -->
-    <h1 class="title text-center">Our Services</h1>
-    <div class="service-container row">
-        <div class="box col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./icons/allergies.png" class="card-img-top" alt="...">
+    <h1 class="title text-center mt-5">Our Services</h1>
+    <div class="service-container row container m-auto">
+        <div class="box mt-5 container col-md-4 d-flex">
+            <div class="card text-center" style="width: 18rem;">
+                <img class="img-fluid m-auto w-50" src="./icons/allergies.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Allergies</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -75,9 +76,9 @@
 
 
 
-        <div class="box col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./icons/diabetes.png" class="card-img-top" alt="...">
+        <div class="box mt-5 col-md-4 d-flex">
+            <div class="card text-center" style="width: 18rem;">
+                <img class="img-fluid m-auto w-50" src="./icons/diabetes.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Diabetes</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -89,9 +90,9 @@
 
 
 
-        <div class="box col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./icons/cancer.png" class="card-img-top" alt="...">
+        <div class="box mt-5 col-md-4 d-flex">
+            <div class="card text-center" style="width: 18rem;">
+                <img class="img-fluid m-auto w-50" src="./icons/cancer.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Cancer</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -100,6 +101,22 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Design Form -->
+    <div class="contact-container container m-auto w-50">
+        <h1 class="title text-center text-primary mt-5">Contact with Us</h1>
+
+        <!-- form from bootstrape -->
+        <div class="mb-3 mt-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Your problem in detail</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
     </div>
 
 
