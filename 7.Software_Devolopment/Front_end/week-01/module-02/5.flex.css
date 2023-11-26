@@ -62,14 +62,40 @@ p {
         margin: auto;
     }
 
-   
-    .box{
-        background-color: aquamarine;
-    }
-    .naeem
-    {
-        background-color: aqua;
-        font-size: large;
-    }
 
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    margin:5px;
+    text-align: center;
+    background-color: bisque;
+    display: flex;
+}
+.naeem
+{
+    background-color: aqua;
+    font-size: large;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-style: italic;
+    text-align: center;
+   
+}
+.container{
+    display: flex;
+    justify-content:center ;
+    gap: 50px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    
+   
+
+}
+.fl{
+    display:flex;
+    flex-wrap: wrap;
 }
