@@ -26,3 +26,13 @@
     font-weight: 1000;
     font-style: italic;
 }
+
+.banner-container
+{
+    display: flex;
+    width: 80%;
+}
+.doc_img
+{
+    width: 100%;
+}
