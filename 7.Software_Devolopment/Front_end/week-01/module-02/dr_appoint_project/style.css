@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.navbar_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: forestgreen;
+}
+
+.logo
+{
+    width: 100px;
+    padding: 10px;
+}
+
+.menus_container
+{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 1000;
+    font-style: italic;
+}
