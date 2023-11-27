@@ -1,24 +1,21 @@
-*{
+* {
     margin: 0px;
-    padding:0px;
+    padding: 0px;
 }
 
-.navbar_container
-{
+.navbar_container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: forestgreen;
 }
 
-.logo
-{
+.logo {
     width: 100px;
     padding: 10px;
 }
 
-.menus_container
-{
+.menus_container {
     display: flex;
     list-style: none;
     gap: 40px;
@@ -27,42 +24,40 @@
     font-style: italic;
 }
 
-.banner-container
-{
+.banner-container {
     display: flex;
     width: 80%;
     margin: auto;
-    height: 100vh;
+    height: 120vh;
     align-items: center;
     text-align: center;
 }
-.doc_img
-{
+
+.doc_img {
     width: 100%;
 }
-.title
-{
+
+.title {
     font-size: 70px;
     font-weight: bold;
     color: #228b22;
+    text-align: center;
 }
 
-.des
-{
+.des {
     margin-top: 50px;
     font-size: 20px;
     font-style: italic;
 }
 
 
-.button
-{
+.button {
     border: none;
     gap: 5px;
     padding: 15px 25px;
 }
-.app_btn
-{
+
+.app_btn {
     border: none;
     background-color: blue;
     padding: 15px 25px;
@@ -72,13 +67,143 @@
     color: white;
 }
 
-.doc_btn
-{
-    background-color:goldenrod;
+.doc_btn {
+    background-color: goldenrod;
     padding: 15px 25px;
     margin-top: 10px;
     font-weight: bold;
     font-style: italic;
     color: white;
     border: none;
+}
+
+.btn {
+    margin: auto;
+}
+
+.card {
+    margin-top: 20px;
+    height: 380px;
+    width: 300px;
+    border: none;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.img_icon {
+    width: 70%;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+.titl {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.appp_btn {
+    background-color: goldenrod;
+    padding: 15px 25px;
+    margin-top: 10px;
+    margin-left: 12%;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    border: none;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.input-box {
+    margin-top: 50px;
+    padding: 15px 30px;
+    margin: 10px;
+}
+
+.contact-container {
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.text-area {
+    padding: 40px 50px;
+    margin: 10px;
+}
+
+.submit_button {
+    padding: 10px 20px;
+    width: 16%;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.footer_container {
+    background-color: rgb(179, 17, 187);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+}
+
+.container1 {
+    text-align: center;
+    font-size: 15;
+    font-style: italic;
+    color: white;
+}
+
+.container2 {
+    justify-content: center;
+    font-size: 15;
+    color: white;
+    list-style: none;
+
+}
+
+.container3 {
+    justify-content: center;
+    font-size: 15;
+    color: white;
+    list-style: none;
+
+}
+
+.container4 {
+    justify-content: center;
+    font-size: 15;
+    color: white;
+    list-style: none;
+
+}
+
+.cr {
+
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(179, 17, 187);
+    color: white;
+    font-size: 22px;
+    height: 10vh;
+}
+
+.header
+{
+    color: black;
+    margin-bottom: 5px;
 }
