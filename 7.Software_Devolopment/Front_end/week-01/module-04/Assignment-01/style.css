@@ -1,0 +1,40 @@
+
+.navbar{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar-left{
+    margin-left: 100px; 
+    display: flex;
+    gap: 30px;
+    align-items: center;
+     justify-content: center;
+    
+}
+
+.shop-hero-logo{
+    width: 25%;
+    margin-left: 10px;
+}
+
+
+.search-bar{
+    display: flex;
+    gap: 5px;
+    height: 35px;
+    /* margin-top: 12px; */
+}
+.btn{
+    background-color: white;
+    color: white;
+}
+
+.navbar-right{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}

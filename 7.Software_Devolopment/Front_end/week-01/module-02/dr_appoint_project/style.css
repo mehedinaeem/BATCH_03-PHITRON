@@ -15,6 +15,12 @@
     padding: 10px;
 }
 
+.logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .menus_container {
     display: flex;
     list-style: none;
@@ -30,7 +36,7 @@
     margin: auto;
     height: 120vh;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 
 .doc_img {
@@ -206,4 +212,8 @@
 {
     color: black;
     margin-bottom: 5px;
+}
+
+.check{
+    font-weight: bold;
 }

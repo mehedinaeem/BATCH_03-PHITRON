@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+.page-title{
+    font-size: 50px;
+    color: #FF3F8B;
+    text-align: center;
+    padding: 50px;
+}
+
+.top-banner{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-image: url(./assets/top-banner.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+.my_pic{
+    width: 60%;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+}
+
+.top-left-half-width{
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-right-half-width{
+    /* margin-right: 20px; */
+    align-items: center;
+    justify-content: center;
+}
+.top-banner-hi{
+    font-style: italic;
+    font-size: 50px;
+}
+
+.top-banner-name{
+    padding: 10px;
+    margin-left: 25px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.btn{
+    /* margin-left: 380px; */
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(233,31,119);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.descrp{
+    display: flex;
+    flex-wrap: wrap;
+}
