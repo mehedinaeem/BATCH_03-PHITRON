@@ -88,6 +88,8 @@
     display: flex;
 }
 
+/* this part for browse catagory */
+
 .browse-catagory{
     background-color: rgb(215, 221, 226);
     justify-content: center;
@@ -129,6 +131,8 @@
     margin-left: 100px;
 }
 
+
+/* new arrivl product */
 .product{
     width: 20%;
     align-items: center;
@@ -158,6 +162,8 @@
     align-items: center;
 }
 
+
+/* footer part */
 .footer-img{
     width: 50%;
 }

@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color: blue;
+}
+
+.shop-hero-logo{
+    width: 25%;
+    margin-left: 100px;
+}
+
+.navbar-nav{
+    margin: auto;
+    gap: 100px;
+    color: white;
+}
+
+/* thats for slide part */
+
+.slide{
+    background-color: darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px;
+}
+
+.slide-img{
+    width: 50%;
+}
+
+.slide-left-part{
+    margin-left: 100px;
+}
+
+.slide-right-part{
+    margin-left: 150px;
+}
+
+.txt2{
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+}
+
+
+
+
+/* thats for browse product part */
+.browse-catagory{
+    background-color: rgb(215, 221, 226);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 50px;
+
+}
+.card-img{
+    margin-top: 10px;
+}
+.card{
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.brs{
+    font-weight: 100;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+
+/* new arrivl product */
+.product{
+    width: 25%;
+    /* border: solid; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-img{
+    width: 80%;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.product-title{
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.arrival-product{
+    background-color:cornsilk;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.product-btn{
+    margin-left: 80px;
+    margin-top: -20px;
+}
