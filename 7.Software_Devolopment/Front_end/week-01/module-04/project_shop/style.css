@@ -117,8 +117,30 @@
     margin-top: 50px;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .product-btn{
     margin-left: 80px;
     margin-top: -20px;
+}
+
+
+/* footer */
+.footer-img-left{
+    width: 25%;
+    /* margin-left: -20px; */
+    margin-top: 20px;
+}
+.footer-img-right{
+    width: 30%;
+    /* margin-left: 20px; */
+    padding: 20px;
+}
+.upper-part{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
 }
