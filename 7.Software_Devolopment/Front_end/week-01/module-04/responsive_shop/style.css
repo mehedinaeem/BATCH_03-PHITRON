@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 1em;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 1em;
+  }
+  
+  header nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 0.5em;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  section#hero {
+    text-align: center;
+  }
+  
+  section#hero img {
+    max-width: 100%;
+  }
+  
+  section#hero h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    padding-top: 1em;
+  }
+  
+  section#hero p {
+    padding-bottom: 1em;
+  
