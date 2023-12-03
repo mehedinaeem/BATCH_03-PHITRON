@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0px;
     padding: 0px;
 }
@@ -127,20 +127,79 @@
 
 /* footer */
 .footer-img-left{
-    width: 25%;
+    width: 70%;
     /* margin-left: -20px; */
     margin-top: 20px;
+    margin-left: 0px;
 }
 .footer-img-right{
-    width: 30%;
-    /* margin-left: 20px; */
+    width: 120%;
+    margin-right: 10px;
     padding: 20px;
+}
+
+.upper-part-2{
+    margin-top: 20px;
 }
 .upper-part{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* gap: 50px; */
     align-items: center;
     justify-content: center;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+
 }
+
+
+/* footer lower part */
+.lower-part {
+    background-color: rgb(84, 79, 79);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .lower-part > div {
+    flex: 1; /* Equal distribution of space */
+    text-align: center; /* Center-align content */
+    padding: 10px;
+  }
+  
+  .lower-part-2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footer_icon {
+    width: 30px; /* Adjust the size according to your design */
+    height: auto;
+  }
+  
+  .footer-img-left-lower {
+    width: 80px; /* Adjust the size according to your design */
+    height: auto;
+  }
+  
+
+
+  /* Example media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .lower-part > div {
+      flex: 1 0 100%; /* Allow each part to take full width on smaller screens */
+      margin-bottom: 10px; /* Add space between sections */
+    }
+    
+    /* Adjust specific element sizes or spacing for smaller screens */
+    .footer_icon {
+      width: 20px;
+    }
+  
+    .footer-img-left-lower {
+      width: 60px;
+    }
+  }
+  
