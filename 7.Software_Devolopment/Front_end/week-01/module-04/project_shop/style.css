@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -14,8 +14,14 @@ body{
 
 .navbar-nav{
     margin: auto;
-    gap: 100px;
+    gap: 1px;
     color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.cart-logo{
+    width: 5%;
 }
 
 /* thats for slide part */
@@ -73,9 +79,9 @@ body{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 80px;
+    /* gap: 200px; */
 }
 
 .brs{
@@ -87,69 +93,98 @@ body{
 
 
 
-/* new arrivl product */
-.product{
-    width: 25%;
-    /* border: solid; */
-    align-items: center;
-    justify-content: center;
+/* new arrival product */
+.arrival-product{
+    background-color: aquamarine;
+    /* margin-bottom: 50px; */
+}
+
+.cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Add gap between products */
 }
-.product-img{
-    width: 80%;
-    padding: 10px;
+
+.product {
+    width: calc(25% - 20px); /* Adjust width and consider the gap */
+    background-color: #fff; /* Add a background color for better visualization */
+    text-align: center; /* Center-align text within the product card */
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.product-img {
+    width: 100%; /* Adjust image width to fill the container */
+    max-width: 100%; /* Ensure image doesn't overflow */
+}
+
+.product-title,
+.pro-text,
+.product-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Adjustments for responsiveness */
+@media screen and (max-width: 768px) {
+    .product {
+        width: calc(50% - 20px); /* Show two products per row on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product {
+        width: calc(100% - 20px); /* Show one product per row on even smaller screens */
+    }
+}
+
+
+/* Footer */
+.footer-img-left {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.footer-img-right {
+    max-width: 150%;
+    height: auto;
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box;
+}
+
+.upper-part-2 {
+    margin-top: 20px;
     margin-left: 30px;
+    text-align: center;
 }
 
-.product-title{
-    margin-left: 80px;
-    justify-content: center;
-    align-items: center;
-}
-.btn{
-    margin-left: 80px;
-    justify-content: center;
-    align-items: center;
-}
-.arrival-product{
-    background-color:cornsilk;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-.product-btn{
-    margin-left: 80px;
-    margin-top: -20px;
-}
-
-
-/* footer */
-.footer-img-left{
-    width: 70%;
-    /* margin-left: -20px; */
-    margin-top: 20px;
-    margin-left: 0px;
-}
-.footer-img-right{
-    width: 120%;
-    margin-right: 10px;
-    padding: 20px;
-}
-
-.upper-part-2{
-    margin-top: 20px;
-}
-.upper-part{
+.upper-part {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* gap: 50px; */
     align-items: center;
-    justify-content: center;
-    /* margin-left: 30px; */
-
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 1200px; /* Set a maximum width for the footer content */
+    margin: 0 auto; /* Center the content horizontally */
+    gap: 100px;
 }
+
+/* Adjustments for responsiveness */
+@media screen and (max-width: 768px) {
+    .upper-part {
+        flex-direction: column;
+    }
+
+    .footer-img-left,
+    .footer-img-right {
+        max-width: 80%; /* Adjust the image width on smaller screens */
+        margin: 10px auto; /* Center the images */
+    }
+}
+
+
 
 
 /* footer lower part */
