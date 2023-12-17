@@ -44,7 +44,7 @@ newDiv.append(p);
 
 // do it by function
 function append_maker() {
-    var newDiv = document.getElementById("newDiv");
+    var newDiv = document.getElementById("newDiv").val;
     var p = document.createElement("p");
     p.innerText = "Succesfully i created that by function";
     newDiv.append(p);
