@@ -22,12 +22,64 @@
     <!-- make input and search box -->
     <!-- ============================================= -->
     <div class="search-box">
-        <input class="search-input" type="text" placeholder="type food name..">
-        <button id="search-btn">search</button>
+        <input id="search-box" class="search-input" type="text" placeholder="type food name..">
+        <button onclick="loadData()" id="search-btn">search</button>
+
     </div>
-    
+
     <!-- ============================================= -->
 
+    <!-- show total meals -->
+    <h1 class="text-center">Total meals: <span class="text-danger" id="total-meals"></span> </h1>
+    <div id="meals-container"></div>
+
+
+
+    <!-- ============================================= -->
+
+    <!-- modal section -->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- for show details in modal -->
+    <!-- Your modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Meal Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="mealDetails"> <!-- This div will hold the meal details -->
+                    <!-- Content will be dynamically added here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================= -->
     <!-- script -->
     <script src="app.js"></script>
 </body>
