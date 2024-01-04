@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Context</title>
 </head>
+
 <body>
     <h1>Name: {{Name}}</h1>
     <h1>Age: {{Age}}</h1>
     <h1>Dept: {{Dept}}</h1>
     <h1>Session: {{Session}}</h1>
+    <hr>
+    <!-- Additional operations -->
+    <hr>
+    <!-- add filter -->
+    <h1>Age (add 2)=>{{Age|add:"2"}}</h1>
+
+    <hr>
+    <hr>
+
+    <!-- capfirst filter -->
+    <h1>Name (Capfirst): {{ Name|capfirst }}</h1>
+
+    <hr>
+    <hr>
+
+    <!-- date filter -->
+    {% with today=date|date:"Y-m-d" %}
+    <h1>Today's Date: {{ today }}</h1>
+    {% endwith %}
+
+    <hr>
+    <hr>
+    
+    <!-- center the value -->
+    <h1>center: "{{ Name | center:"15" }}"</h1>
+
+    <hr><hr>
+
+
+
+
+
 </body>
+
 </html>
