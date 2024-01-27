@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This page for context:</h1>
+    <h2>Author: {{author}}</h2>
+    <h2>Author: {{age}}</h2>
+
+    <!-- conditional statement -->
+    {% if age >= 20 %}
+        <h4>u will get driving licence</h4>
+    {% elif age >= 10 and age <= 19 %} 
+        <h4>u will not get driving licence</h4> 
+    {% else %}
+        <h4>u are child</h4>
+    {% endif %}
+</body>
+</html>
