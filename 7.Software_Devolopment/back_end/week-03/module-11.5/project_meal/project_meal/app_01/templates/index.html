@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1>This is app homepage</h1>
+
+
+<div class="card_1">
+    {% for meal in meals %}
+    <div class="col-md-4">
+        <div class="card" style="width: 25rem;">
+            <img src="{{ meal.strMealThumb }}" class="card-img-top" alt="Meal Image">
+            <div class="card-body">
+                <h5 class="card-title">{{ meal.strMeal }}</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+{% endblock %}

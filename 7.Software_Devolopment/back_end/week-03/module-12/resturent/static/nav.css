@@ -1,0 +1,7 @@
+.navbar{
+    background-color: rgb(24, 123, 209);
+}
+.navbar-nav{
+    margin-left: 300px;
+    gap: 100px;
+}

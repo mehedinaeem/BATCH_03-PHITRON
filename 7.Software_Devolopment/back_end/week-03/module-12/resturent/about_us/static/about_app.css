@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(54, 174, 174);
+}
+
+.txt{
+    color: white;
+}
+
+.txt2{
+    color: wheat;
+    font-size: larger;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card-img{
+    /* margin-top: 20px; */
+    height: 500px;
+}

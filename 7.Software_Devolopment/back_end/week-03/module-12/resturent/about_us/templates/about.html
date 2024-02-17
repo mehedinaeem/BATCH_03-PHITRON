@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'about_app.css' %}">
+{% endblock %}
+
+{% block content %}
+<!-- <h1>this is about us page</h1> -->
+
+<header>
+    <h1 class="txt"><u>About Us</u></h1>
+</header>
+<main>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facere neque velit impedit, voluptatem alias
+            nemo ducimus saepe sapiente itaque temporibus! Quis suscipit iure velit minus quod! Odio blanditiis unde
+            pariatur, laboriosam consequatur, natus quisquam rem corporis corrupti non officiis odit! Aliquid, iure
+            incidunt! Eaque omnis minima voluptatum unde sed quas alias at sit suscipit natus iusto porro fuga
+            distinctio, dolor dolores, sunt repellendus dolorum, fugiat beatae quod quam! Sequi et corporis quis quae
+            mollitia saepe veniam assumenda, ullam facilis accusantium ipsa, consequuntur placeat exercitationem fuga in
+            incidunt expedita? Quae quasi doloremque asperiores vitae aut recusandae voluptatem aperiam vero autem!.</p>
+    </section>
+
+
+    <div class="card text-bg-dark">
+        <img src="{% static 'resturant.jpg' %}" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional -->
+            <!-- content. This content is a little bit longer.</p> -->
+            <!-- <p class="card-text"><small>Last updated 3 mins ago</small></p> -->
+        </div>
+    </div>
+
+    <section id="history">
+        <h2>Our History</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, mollitia sint! Ipsam explicabo natus,
+            labore eum vero ea autem, ullam esse eos ipsum repudiandae nulla obcaecati cum mollitia blanditiis
+            consequatur accusantium earum facilis quae sapiente odio fugit porro suscipit est? Saepe aperiam nihil totam
+            excepturi deleniti at, delectus illo similique!</p>
+    </section>
+    <!-- Add more sections as needed -->
+</main>
+<footer>
+    <p class="txt2">Contact us at: email@example.com</p>
+</footer>
+
+{% endblock %}

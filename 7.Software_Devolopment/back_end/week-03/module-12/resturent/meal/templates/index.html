@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'meal.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="card_1">
+    {% for category in categories %}
+    <div class="col-md-4">
+        <div class="card" style="width: 25rem;">
+            <img src="{{ category.strCategoryThumb }}" class="card-img-top" alt="{{ category.strCategory }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ category.strCategory }}</h5>
+                <p class="card-text">{{ category.strCategoryDescription|truncatewords:10 }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+{% endblock %}

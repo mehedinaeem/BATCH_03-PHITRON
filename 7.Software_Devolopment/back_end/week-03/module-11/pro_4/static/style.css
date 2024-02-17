@@ -1,0 +1,9 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.image_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

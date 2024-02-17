@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'style.css'%}">
+{% endblock %}
+
+{% block content %}
+<!-- <h1>This is homepage</h1> -->
+
+<div class="homepage">
+    <div class="home_left">
+        <img class="res_img" src="{% static 'resturant.jpg' %}" alt="resturent image">
+    </div>
+    <div class="home_right">
+        <p class="txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Hic voluptates ullam quae doloribus
+            natus molestias consequatur <br> eveniet totam architecto aperiam.p>
+    </div>
+</div>
+
+{% endblock %}
